@@ -1,6 +1,9 @@
 cff-version: 1.2.0
-message: "Please cite the associated medRxiv preprint; a separate software DOI has not been assigned."
+message: "Please cite the associated medRxiv preprint and this software release when its DOI is available."
 type: software
+version: 1.0.0
+license: MIT
+url: "https://github.com/Helen2813/paper8-reproducibility"
 title: "Paper 8 computational reproducibility code for endometriosis microarray classifier audits"
 authors:
   - family-names: Krikun
