@@ -1,0 +1,46 @@
+# Local environments and caches
+.envs/
+.mamba/
+.conda/
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+
+# Local research data and experimental outputs
+/data/
+/sources/
+/results/
+/experiments/
+/checkpoints/
+/outputs/
+
+# Raw data and large analysis artifacts
+*.CEL
+*.cel
+*.CEL.gz
+*.rds
+*.RData
+*.rdata
+*.h5
+*.h5ad
+*.npy
+*.npz
+*.bam
+*.fastq
+*.tar
+*.zip
+
+# Tables pending manual publication review
+*.csv
+*.tsv
+*.xlsx
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
