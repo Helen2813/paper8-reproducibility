@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the associated medRxiv preprint; a separate software DOI has not been assigned."
+type: software
+title: "Paper 8 computational reproducibility code for endometriosis microarray classifier audits"
+authors:
+  - family-names: Krikun
+    given-names: Elena
+preferred-citation:
+  type: article
+  title: "Hidden Dependencies in Endometriosis Microarray Classifiers: Sample Reuse, Outcome-Informed Batch Correction, and Diagnostic Reassessment"
+  authors:
+    - family-names: Krikun
+      given-names: Elena
+    - family-names: Alkhateeb
+      given-names: Abedalrhman
+  doi: "10.64898/2026.11.15.26368137"
+  year: 2026
+  journal: medRxiv

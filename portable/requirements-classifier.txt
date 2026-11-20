@@ -1,0 +1,6 @@
+# Exact versions reported in successful Paper 8 Stage 7 run.
+ # Use Python 3.12.16 on osx-arm64 for exact comparison.
+numpy==2.5.4
+pandas==3.1.1
+scipy==1.18.1
+scikit-learn==1.9.1

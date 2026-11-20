@@ -1,0 +1,12 @@
+# Exact direct R/Bioconductor dependencies used in Stage 14 clean macOS run.
+# Transitive dependency lock not yet archived. Same-machine proof only.
+name: paper8_combat_replay
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.4.3
+  - bioconductor-sva=3.54.0
+  - bioconductor-affy=1.84.0
+  - bioconductor-biobase=2.66.0
+  - bioconductor-hgu133plus2cdf=2.18.0

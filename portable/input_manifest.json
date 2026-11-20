@@ -1,0 +1,84 @@
+{
+  "external_references": {
+    "s2": {
+      "original_supplementary_path": "data/supplementary_data/Supplementary_Table_S2_verified_216_GSM.csv",
+      "portable_filename": "reference_S2.csv",
+      "sha256": "4b786c25bfd81ed78ac3fee6d141de623e64d1cc3678b931049f0fbc0e99e97b"
+    },
+    "s3": {
+      "original_supplementary_path": "data/supplementary_data/Supplementary_Table_S3_37_single_label_interventions.csv",
+      "portable_filename": "reference_S3.csv",
+      "sha256": "865eea2ef379ded51ce574096693e07d1ac99b56f48d01df61f4eaf3d7a4708d"
+    }
+  },
+  "purpose": "Frozen archived numerical replay, not leakage-free validation",
+  "resources": {
+    "combat_meta": {
+      "portable_filename": "combat_meta.tsv",
+      "sha256": "a2696216f28f6f80a8e7db716f280c45e4d2e4264730723fb3775b94751ebc4a",
+      "source_relative_path": "data/p8_cross_series_independence/fogg_original_combat/20261108T015502Z/all_phases_coldata.tsv"
+    },
+    "combat_post": {
+      "portable_filename": "combat_post.tsv",
+      "sha256": "45337e9db40226814cfe314c57b4771c8d1993a733c0e145805b7f75cee09b7c",
+      "source_relative_path": "data/p8_cross_series_independence/fogg_original_combat/20261108T015502Z/all_phases_all_genes_counts.tsv"
+    },
+    "combat_pre": {
+      "portable_filename": "combat_pre.tsv",
+      "sha256": "2570400220ea4107e38771232f112899cee1f93b07686e5a07ff8d799d303314",
+      "source_relative_path": "data/p8_cross_series_independence/fogg_original_combat/20261108T015502Z/all_phases_all_genes_precombat.tsv"
+    },
+    "frozen_coefficients": {
+      "portable_filename": "frozen_coefficients.csv",
+      "sha256": "229f5ecbcb1a505bbbaf0af8e0977e75970cf0d005b1ca4a46f8e5c72a19860b",
+      "source_relative_path": "results/p8_v352d_frozen_score_20261108T033500Z/frozen_model_coefficients.csv"
+    },
+    "frozen_summary": {
+      "portable_filename": "frozen_summary.csv",
+      "sha256": "db57c3ab492ddd19804b3aa6f8a11f85133653e2721ee8ff3a7e4d50065d1fb0",
+      "source_relative_path": "results/p8_v352d_frozen_score_20261108T033500Z/frozen_model_summary.csv"
+    },
+    "test_counts": {
+      "portable_filename": "test_counts.tsv",
+      "sha256": "ea076133378182efca93ea824a1c1edd3caa40dd95a0b9db437101d19beb2005",
+      "source_relative_path": "data/p8_cross_series_independence/fogg_classifier_inputs_v350f/20261108T015702Z/test/all_phases_core_matrisome_counts.tsv"
+    },
+    "test_meta": {
+      "portable_filename": "test_meta.tsv",
+      "sha256": "5180bba3255c7aa2f507baba2d3f2613306d5d28874046a5c0f5512d156e8e7d",
+      "source_relative_path": "data/p8_cross_series_independence/fogg_classifier_inputs_v350f/20261108T015702Z/test/all_phases_coldata.tsv"
+    },
+    "train_counts": {
+      "portable_filename": "train_counts.tsv",
+      "sha256": "8867950e06049bddc765cb1b6160181734b8e07ce4c1d4c73a52aea95267621f",
+      "source_relative_path": "data/p8_cross_series_independence/fogg_classifier_inputs_v350f/20261108T015702Z/fit/all_phases_core_matrisome_counts.tsv"
+    },
+    "train_meta": {
+      "portable_filename": "train_meta.tsv",
+      "sha256": "aa84ca1fbcf3e64b776d84933b8a9c51029948b6832194911a41a5dd7209226f",
+      "source_relative_path": "data/p8_cross_series_independence/fogg_classifier_inputs_v350f/20261108T015702Z/fit/all_phases_coldata.tsv"
+    }
+  },
+  "schema_version": "p8-public-code-v6",
+  "scientific_gates": {
+    "max_iter": 100,
+    "model_C": 0.6552218193440044,
+    "model_l1_ratio": 0.0675608348364084,
+    "n_features": 270,
+    "n_genes": 44341,
+    "n_samples": 216,
+    "n_test": 37,
+    "n_train": 179,
+    "random_state": 123,
+    "score_tolerance": 1e-06
+  },
+  "versions": {
+    "R": "4.4.3",
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "python": "3.12.16",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "sva": "3.54.0"
+  }
+}
